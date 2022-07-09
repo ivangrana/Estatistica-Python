@@ -41,7 +41,8 @@ for t in range(1, NumIntervals):
  
 plt.figure(figsize=(10,5))
 AMZNTrend = np.array(Data.iloc[:, 0:1])
-plt.plot(AMZNTrend,color = 'red')
-plt.plot(SBMotion)
+plt.plot(AMZNTrend,color = 'red',label = "Tendencia do valor")
+plt.plot(SBMotion,label = "Simulação de volatilidade")
+plt.legend()
 
 plt.show()
