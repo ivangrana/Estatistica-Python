@@ -16,7 +16,6 @@ for k in range(n):
      Yk = Yk + SQN*Z_valores[k] #Função de atualização da posição da particula
      SB_movimento.append(Yk)
   
-
 plt.plot(SB_movimento)
 plt.title("Movimento Browniano")
 plt.ylabel("Posição Y")
