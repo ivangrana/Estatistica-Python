@@ -8,7 +8,7 @@ StockList = ['ADBE','CSCO','IBM','NVDA','MSFT','HPQ']
 StartDay = dt.datetime(2019, 1, 1)
 EndDay = dt.datetime(2019, 12, 31)
 
-StockData =  wb.DataReader(StockList, 'yahoo',  StartDay,EndDay)
+StockData = wb.DataReader(StockList, 'yahoo',StartDay,EndDay)
 StockClose = StockData["Adj Close"]
 print(StockClose.describe())
 

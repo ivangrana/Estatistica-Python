@@ -1,2 +1,2 @@
-# Simulation-Models-Python
-Simulation models to achieve accurate results and enhance decision-making processes
+# Modelos-Python
+Geração de modelos de simulação com o proposito de alcançar resultados precisos e melhorar processos de tomadas de decisões
