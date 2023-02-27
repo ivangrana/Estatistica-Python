@@ -3,7 +3,7 @@ vetor_resultados = []
 frequencia = 0
 
 def rolar_dados():
-    """Função que simula o rolar de um dado de 6 lados"""
+    """Função que simula o lançamento de um dado de 6 lados"""
     return random.randint(1,6)
 
 def gerar_simulacao(frequencia,numero_dado):
