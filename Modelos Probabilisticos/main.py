@@ -24,5 +24,5 @@ def distribuicao_uniforme():
     ax.hist(x,100)
     plt.show()
     
-distribuicao_uniforme()
+distribuicao_normal()
  

@@ -1,4 +1,4 @@
-rfr.py
+
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd, numpy.random as rnd
 import matplotlib, matplotlib.pyplot as plt
